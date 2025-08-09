@@ -1,0 +1,54 @@
+{
+    "profile": {
+        "iconBase64":"",
+        "name": "Gabriele",
+        "surname": "Re",
+        "birthDate": "2001-06-21",
+        "country": "Italy",
+        "city": "Turbigo",
+        "introduction": "Hi, I’m Gabriele, if you are looking for a handsome, creative, and professional person: I’m the one that is right for you! "
+    },
+    "items": [
+        {
+            "nav": "Skills", 
+            "color": "green.500",
+            "name":"C++", 
+            "description":"Mostly used in console applications"
+        },
+        {
+            "nav": "Skills", 
+            "color": "green.500",
+            "name":"C#", 
+            "description":"Mostly used in backend API and desktop applications"
+        },
+        {
+            "nav": "Work Experience", 
+            "color": "blue.500",
+            "name":"SETA s.r.l.", 
+            "description":"Since Sept 2020"
+        },
+        {
+            "nav": "Education", 
+            "color": "yellow.300",
+            "name":"Istituto tecnico tecnologico \"Giacomo Fauser\"", 
+            "description":"5 years of IT and Network systems study \nFrom 2015 to 2020"
+        },
+        {
+            "nav": "Languages", 
+            "color": "red.500",
+            "name":"Italiano", 
+            "description":"5 years of IT and Network systems study \nFrom 2015 to 2020"
+        },
+        {
+            "nav": "Accomplishments", 
+            "color": "orange.500",
+            "name":"Creation of mobile apps", 
+            "description":"For personal use i created different mobile app published on AppStore and PlayStore using React Native and Expo/Eas"
+        },
+        {
+            "nav": "Contact Informations", 
+            "name":"Phone", 
+            "description":"+39 3457446407"
+        }
+    ]
+}
