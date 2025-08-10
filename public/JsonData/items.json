@@ -1,6 +1,6 @@
 {
     "profile": {
-        "iconBase64":"",
+        "iconBase64":"https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWRpZHJ5OGxqNDNmZHA4ZWE5MzlmYjJlb2szMmx0cnNvenJudzluOCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/tIeCLkB8geYtW/giphy.gif",
         "name": "Gabriele",
         "surname": "Re",
         "birthDate": "2001-06-21",
@@ -49,6 +49,11 @@
             "nav": "Contact Informations", 
             "name":"Phone", 
             "description":"+39 3457446407"
+        },
+        {
+            "nav": "Contact Informations", 
+            "name":"E-Mail", 
+            "description":"regabriele375@gmail.com"
         }
     ]
 }

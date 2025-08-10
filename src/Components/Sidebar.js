@@ -13,7 +13,7 @@ function Sidebar(props) {
   // console.log("sidebar props", props);
 
   return (
-    <Box flex={"1"} bg="gray.100" p="4">
+    <Box flex={"1"} bg="gray.100" p="4" h="100%">
       <Card>
         <CardHeader>
           <Heading size="md">Navigation</Heading>
@@ -27,7 +27,7 @@ function Sidebar(props) {
                 borderRight={"4px"}
                 borderBottom={"4px"}
                 borderColor={_p.color}
-                id={_i}
+                key={_i}
                 mb="2"
                 w="full"
                 onClick={() => {

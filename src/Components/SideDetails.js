@@ -11,19 +11,14 @@ import React from "react";
 
 function SideDetails(props) {
   return (
-    <Box
-      flex="3"
-      p="4"
-      bg="gray.100"
-      minH="calc(100vh - 60px)"
-      borderLeft="1px solid"
-      borderColor="gray.200"
-    >
-      <Card h={"100%"}>
+    <Box flex="3" p="4" bg="gray.100" h="100%">
+      <Card>
         <CardBody>
           <Stack spacing={3}>
-            {props.details.map((_p) => (
-              <Text as="samp">{_p.description}</Text>
+            {props.details.map((_p, _i) => (
+              <Text as="samp" key={_i}>
+                {_p.description}
+              </Text>
             ))}
           </Stack>
         </CardBody>
